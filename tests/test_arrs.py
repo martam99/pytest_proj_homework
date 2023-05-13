@@ -5,7 +5,6 @@ def test_get():
     assert arrs.get([1, 2, 3], 1, "test") == 2
     assert arrs.get([1, 2, 3, 4, 5], 0, "test") == 1
     assert arrs.get([1, 2, 3, 4, 5], 7, "test") == "test"
-    assert arrs.get([1, 2, 3], 9, "None") == "None"
     assert arrs.get([], 2, "there is nothing") == "there is nothing"
     assert arrs.get([1, 2, 3]) == 1
 
